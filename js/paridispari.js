@@ -20,7 +20,7 @@ if (numeroCasuale % 2 == 0) {
 }
 
 if(sceltaUtente == risultato) {
-    alert("Il numero estratto è " + numeroCasuale + " ("+risultato+"), quindi hai vinto");
+    alert(`Il numero estratto è ${numeroCasuale} (${risultato}), quindi hai vinto`);
 } else {
-    alert("Il numero estratto è " + numeroCasuale + " ("+risultato+"), quindi hai perso");
+    alert(`Il numero estratto è ${numeroCasuale} (${risultato}), quindi hai perso`);
 }
